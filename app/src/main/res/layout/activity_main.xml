@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B6D73"
+    android:backgroundTint="#4CADBA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Questions"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="381dp"
+        android:layout_height="38dp"
+        android:layout_margin="20dp"
+        android:text="This will Be The Question"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Opt_A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+        android:id="@+id/Opt_A"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F4EBEB"
+        android:text="ANS A"
+        android:textColor="#050202"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <Button
+        android:id="@+id/Opt_B"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F8F2F2"
+        android:text="ANS B"
+        android:textColor="#121111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <Button
+        android:id="@+id/Opt_c"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F1F1"
+        android:text="ANS C"
+        android:textColor="#121111"
+        android:textColorHint="#B36464"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.697" />
+
+    <Button
+        android:id="@+id/Opt_D"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#F6F1F1"
+        android:text="ANS D"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <Button
+        android:id="@+id/Submit_button"
+        android:layout_width="145dp"
+        android:layout_height="48dp"
+        android:layout_margin="40dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/total_question"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>
