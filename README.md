@@ -20,12 +20,6 @@ String[][] questionsAndAnswers = {
     {"Question 3", "Answer 3"},
     // Add more questions and answers as needed
 };
-git clone https://github.com/your-username/your-repository.git
-cd your-repository/src
+git clone https://[https://github.com/imritik21/Quiz_App]
 javac Main.java QuizApp.java
 
-
-### Instructions:
-- Replace `your-username` and `your-repository` with your actual GitHub username and repository name.
-- Customize the project structure, installation, usage, and any other sections as needed.
-- Include your email or contact information if desired.
